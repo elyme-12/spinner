@@ -317,10 +317,7 @@ body{
   transform: scale(1.1); 
 }
 
-.delete-button:hover, .delete-button:focus, .delete-button:active {
-  box-shadow: 0 2px 8px rgba(56, 1, 59, 0.908);
-  transform: scale(1.1); 
-}
+
 
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
@@ -335,6 +332,7 @@ body{
 
   .button {
     width: 80%;
+    margin-bottom: 10px;
   }
 
   /* Improve text alignment for tablet screens */
@@ -364,8 +362,10 @@ body{
   }
 
   .button {
-    width: 100%;
+    margin-bottom: 10px;
+    width: 40%;
   }
+  
 
   /* Maintain alignment consistency */
   .user-header{
@@ -478,6 +478,7 @@ body{
     font-size: 16px;
   }
 }
+
 
 
 
